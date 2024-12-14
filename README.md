@@ -41,7 +41,8 @@ Ce projet est une calculatrice simple et fonctionnelle, développée en Java en 
 - Saisie des chiffres :
     ``` private void EnterNumbers(String q) {
     String Nums = Screen.getText() + q;
-    Screen.setText(Nums);} 
+    Screen.setText(Nums);
+    } 
     ```
 - Backspace :
     ```private void backspaceActionPerformed(java.awt.event.ActionEvent evt) {
