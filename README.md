@@ -39,7 +39,8 @@ Ce projet est une calculatrice simple et fonctionnelle, développée en Java en 
 ## Fonctionnalités principales dans le code :
 
 - Saisie des chiffres :
-    ``` private void EnterNumbers(String q) {
+    ```
+    private void EnterNumbers(String q) {
     String Nums = Screen.getText() + q;
     Screen.setText(Nums);
     } 
